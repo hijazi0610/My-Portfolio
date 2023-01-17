@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white; 
+    background-color: black;
+    font-family: comfortaa, cursive;
+}
+
+.main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    padding-top: 300px;
+    padding-bottom: 50px;
+}
+
+.welcome-p {
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: 2;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+#gradient {
+    background: linear-gradient(-45deg, #cf59e6, #6bc5f8, #cf59e6, #6bc5f8);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

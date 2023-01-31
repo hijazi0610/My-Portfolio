@@ -153,6 +153,11 @@ a {
     padding: 20px;
 }
 
+.SM:hover {
+    color: #6bc5f8;
+    transition: 0.25s linear;
+}
+
 footer {
     margin-top: 150px;
     text-align: center;

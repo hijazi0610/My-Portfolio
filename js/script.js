@@ -50,7 +50,7 @@ var myAnimation = new hoverEffect({
     intensity: 0.4,
     speedIn: 1.5,
     speedOut: 1.5,
-    image1: '../img/Portfolio.jpg',
+    image1: '../img/Portfolio.png',
     image2: '../img/WP4.png',
     displacementImage: '../img/14.jpg'
 });

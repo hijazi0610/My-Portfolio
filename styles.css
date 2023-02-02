@@ -17,7 +17,6 @@ a {
 }
 
 i {
-    text-align: center;
     font-size: 30px;
     cursor: pointer;
     position: sticky;
@@ -57,25 +56,7 @@ i {
     align-items: center;
 }
 
-.my-div {
-    width: 300px;
-    height: 350px;
-    border-radius: 50px;
-}
-
-.my-div2 {
-    width: 300px;
-    height: 350px;
-    border-radius: 50px;
-}
-
-.my-div3 {
-    width: 300px;
-    height: 350px;
-    border-radius: 50px;
-}
-
-.my-div4 {
+.my-div, .my-div2, .my-div3, .my-div4 {
     width: 300px;
     height: 350px;
     border-radius: 50px;
@@ -116,9 +97,9 @@ a {
     margin-bottom: 200px;
 }
 
-.skills-list {
+/*.skills-list {
     padding: 20px;
-}
+}*/
 
 #gradient {
     background: linear-gradient(-45deg, #cf59e6, #6bc5f8, #cf59e6, #6bc5f8);
@@ -179,4 +160,47 @@ footer {
 svg {
     width: 27px;
     height: 27px;
+}
+
+@media only screen and (max-width:480px) {
+    .welcome {
+        padding-top: 150px;
+    }
+    .projects {
+        width: 320px;
+    }
+    .my-div, .my-div-2, .my-div-3, .my-div4 {
+        width: 280px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        padding-right: 9%;
+        padding-left: 9%;
+    }
+    .skills-container {
+        grid-template-columns: repeat(3, 80px);
+
+    }
+    .skills-container h3 {
+        font-size: 0.75em;
+    }
+    i {
+        position: absolute;
+        top: 40px;
+        left: 90%;
+    }
+    .view-projects {
+        font-size: 0.8em;
+        padding: 10px;
+    }
+    .welcome-p {
+        padding-bottom: 100px;
+    }
+    .projects-main {
+        padding-bottom: 100px;
+    }
 }

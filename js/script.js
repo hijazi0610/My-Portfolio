@@ -1,5 +1,6 @@
 const toggle = document.getElementById('brightToggle');
 const body = document.querySelector('body');
+const gsap = document.getElementsByClassName('my-div')
 
 toggle.addEventListener('click', function() {
     //this.classList.toggle('bi-brightness-high-fill')
@@ -23,7 +24,6 @@ var myAnimation = new hoverEffect({
     image1: '../img/Trash.jpg',
     image2: '../img/WP.png',
     displacementImage: '../img/14.jpg',
-    imagesRatio: 0.5,
 });
 
 var myAnimation = new hoverEffect({
@@ -56,7 +56,7 @@ var myAnimation = new hoverEffect({
     displacementImage: '../img/14.jpg',
 });
 
-TweenMax.to($(".my-div"), 2, {css:{borderRadius: "50px"}});
+gsap.to(".my-div", 2, {borderRadius: "50px"});
 
 
 

@@ -87,7 +87,7 @@ a {
 
 .projects {
     margin: 5rem auto;
-    width: 25%;
+    width: 475px;
     border: 3px solid #d59bf6;
     border-radius: 50px;
     padding-top: 3rem;
@@ -95,9 +95,10 @@ a {
 }
 
 .view-projects {
-    padding: 10px;
+    border: 3px solid #d59bf6;
+    border-radius: 50px;
+    padding: 22px;
     font-size: 1.5em;
-    padding: 15px;
     cursor: pointer;
 }
 
@@ -140,8 +141,17 @@ a {
     }
 }
 
+.visit-website {
+    color: #B58DB6;
+}
+
+.visit-website:hover {
+    color: #6bc5f8;
+}
+
 .socials {
     text-align: center;
+    display: block;
 }
 
 .connect {
@@ -150,7 +160,8 @@ a {
 
 .SM {
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
+    color: #B58DB6;
 }
 
 .SM:hover {
@@ -166,6 +177,6 @@ footer {
 }
 
 svg {
-    width: 40px;
-    height: 40px;
+    width: 27px;
+    height: 27px;
 }

@@ -55,18 +55,10 @@ var myAnimation = new hoverEffect({
     displacementImage: '../img/14.jpg'
 });
 
-TweenMax.to(".my-div", {
-    css: {borderRadius: "50px"}
-})
+TweenMax.to(".my-div", 2, {borderRadius: "50px"});
 
-TweenMax.to(".my-div2", {
-    css: {borderRadius: "50px"}
-})
+TweenMax.to(".my-div2", 2, {borderRadius: "50px"});
 
-TweenMax.to(".my-div3", {
-    css: {borderRadius: "50px"}
-})
+TweenMax.to(".my-div3", 2, {borderRadius: "50px"});
 
-TweenMax.to(".my-div4", {
-    css: {borderRadius: "50px"}
-})
+TweenMax.to(".my-div4", 2, {borderRadius: "50px"});

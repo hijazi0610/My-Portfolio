@@ -23,7 +23,7 @@ var myAnimation = new hoverEffect({
     image1: '../img/Trash.jpg',
     image2: '../img/WP.png',
     displacementImage: '../img/14.jpg',
-    imagesRatio: 1080 / 1920,
+    imagesRatio: 0.5,
 });
 
 var myAnimation = new hoverEffect({

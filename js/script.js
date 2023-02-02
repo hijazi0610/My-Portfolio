@@ -55,7 +55,7 @@ var myAnimation = new hoverEffect({
     displacementImage: '../img/14.jpg',
 });
 
-var tween = new TweenMax.to(".my-div", 2, {borderRadius: "50px"});
+TweenMax.to(".my-div", 2, {borderRadius: "50px"});
 
 
 

@@ -55,6 +55,18 @@ var myAnimation = new hoverEffect({
     displacementImage: '../img/14.jpg'
 });
 
-gsap.to(".my-div", ".my-div2", ".my-div3", "my-div4", {
+gsap.to(".my-div", {
+    borderRadius: "50px"
+})
+
+gsap.to(".my-div2", {
+    borderRadius: "50px"
+})
+
+gsap.to(".my-div3", {
+    borderRadius: "50px"
+})
+
+gsap.to(".my-div4", {
     borderRadius: "50px"
 })

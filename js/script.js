@@ -55,18 +55,18 @@ var myAnimation = new hoverEffect({
     displacementImage: '../img/14.jpg'
 });
 
-gsap.to(".my-div", {
-    borderRadius: "50px"
+TweenMax.to(".my-div", {
+    css: {borderRadius: "50px"}
 })
 
-gsap.to(".my-div2", {
-    borderRadius: "50px"
+TweenMax.to(".my-div2", {
+    css: {borderRadius: "50px"}
 })
 
-gsap.to(".my-div3", {
-    borderRadius: "50px"
+TweenMax.to(".my-div3", {
+    css: {borderRadius: "50px"}
 })
 
-gsap.to(".my-div4", {
-    borderRadius: "50px"
+TweenMax.to(".my-div4", {
+    css: {borderRadius: "50px"}
 })

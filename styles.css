@@ -55,6 +55,11 @@ i {
     flex-direction: column;
     align-items: center;
 }
+
+.projects-1 {
+    margin-top: 10px;
+}
+
  #redirect-project {
     margin-top: 10%;;
  }

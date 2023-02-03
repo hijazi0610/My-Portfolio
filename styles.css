@@ -182,6 +182,10 @@ svg {
     margin: 10px;
 }
 
+.svg {
+    fill: currentColor;
+}
+
 @media only screen and (max-width: 550px) {
     .welcome {
         padding-top: 150px;

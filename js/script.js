@@ -1,6 +1,6 @@
 const toggle = document.getElementById('brightToggle');
 const body = document.querySelector('body');
-const gsap = document.getElementsByClassName('my-div')
+const skills = document.getElementsByClassName('svg');
 
 toggle.addEventListener('click', function() {
     //this.classList.toggle('bi-brightness-high-fill')
@@ -8,11 +8,13 @@ toggle.addEventListener('click', function() {
         body.style.background = '#10101a';
         body.style.color = 'white';
         body.style.transition = '2s';
+        skills.style.color = 'white';
     } else {
         body.style.background = 'white';
         body.style.color = 'black';
         body.style.transition = '2s';
         body.style.border = '1px solid #10101a';
+        skills.style.color = '#10101a';
     }
 })
 
@@ -56,7 +58,7 @@ var myAnimation = new hoverEffect({
     displacementImage: '../img/14.jpg',
 });
 
-gsap.to(".my-div", 2, {borderRadius: "50px"});
+
 
 
 

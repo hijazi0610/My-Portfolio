@@ -62,7 +62,7 @@ i {
 .my-div, .my-div2, .my-div3, .my-div4 {
     width: 300px;
     height: 350px;
-    border-radius: 50px;
+    margin-top: 10%;
 }
 
 a {

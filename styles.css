@@ -56,10 +56,10 @@ i {
     align-items: center;
 }
 
-.projects-1 {
+/* .projects-1 {
     margin-top: 1rem;
     padding-top: 1rem;
-}
+} */
 
  #redirect-project {
     margin-top: 10%;;
@@ -70,6 +70,8 @@ i {
     height: 350px;
     padding-top: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 a {

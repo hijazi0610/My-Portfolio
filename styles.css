@@ -182,15 +182,18 @@ svg {
     margin: 10px;
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 550px) {
     .welcome {
         padding-top: 150px;
     }
     .projects {
+        margin-top: 20%;
+        padding-top: 20%;
         width: 320px;
     }
     .my-div, .my-div-2, .my-div-3, .my-div4 {
         width: 280px;
+
     }
     h1 {
         font-size: 30px;
@@ -208,6 +211,7 @@ svg {
     .skills-container h3 {
         font-size: 0.75em;
     }
+
     i {
         position: absolute;
         top: 40px;
@@ -215,7 +219,7 @@ svg {
     }
     .view-projects {
         font-size: 1em;
-        padding: 10px;
+        padding: 5px;
     }
     .welcome-p {
         padding-bottom: 100px;
@@ -223,9 +227,6 @@ svg {
     .projects-main {
         padding-bottom: 100px;
     }
-    #redirect-project {
-        margin-top: 40%;;
-     }
 }
 
 @media only screen and (max-width: 1280px) {
